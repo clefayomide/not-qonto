@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { AppHeader } from "./components";
+import { AppHeader } from "../components";
 import localFont from "next/font/local";
 import Script from "next/script";
 
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 const poly = localFont({
-	src: "./fonts/PolySans-Slim.ttf",
+	src: "../fonts/PolySans-Slim.ttf",
 	display: "swap",
 });
 

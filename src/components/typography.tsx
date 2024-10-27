@@ -9,4 +9,3 @@ export const Typography = (props: TypographyPropType) => {
 		</Variant>
 	);
 };
-

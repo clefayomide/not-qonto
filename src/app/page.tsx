@@ -1,15 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { AppButton, AppTypography } from "./components";
-import { HeadPhone } from "./assets";
+import { AppButton, AppTypography } from "../components";
+import { HeadPhone } from "../assets";
 import Image from "next/image";
-import sittedUser from "./assets/sitted-user.png";
+import sittedUser from "../assets/sitted-user.png";
 import Lottie from "react-lottie";
-import animationData from "./assets/lottie.json";
-import invoice from "./assets/invoice2.webp";
+import animationData from "../assets/lottie.json";
+import invoice from "../assets/invoice2.webp";
 
-import { useAnimate } from "./hooks/useAnimate";
+import { useAnimate } from "../hooks/useAnimate";
 
 const defaultOptions = {
 	loop: true,
