@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
+"use client"
+// import type { Metadata } from "next";
 import "./globals.css";
 import { AppHeader } from "../components";
 import localFont from "next/font/local";
 import Script from "next/script";
 
-export const metadata: Metadata = {
-	title: "Quonto",
-	description: "Quonto Landing Page Clone",
-};
+// export const metadata: Metadata = {
+// 	title: "Quonto",
+// 	description: "Quonto Landing Page Clone",
+// };
 
 const poly = localFont({
 	src: "../fonts/PolySans-Slim.ttf",
