@@ -6,7 +6,7 @@ import { HeadPhone } from "@/assets";
 import Image from "next/image";
 import sittedUser from "../../assets/sitted-user.png";
 import invoice from "../../assets/invoice2.webp";
-import { useAnimate } from "../../hooks/useAnimate";
+// import { useAnimate } from "../../hooks/useAnimate";
 
 import Lottie from "react-lottie";
 import animationData from "../../assets/lottie.json";
@@ -25,7 +25,7 @@ const Home = () => {
 	const invoiceRef = useRef<HTMLImageElement | null>(null);
 	const focusRef = useRef<HTMLDivElement | null>(null);
 
-	useAnimate({ sittedUserRef, invoiceRef, focusRef });
+	// useAnimate({ sittedUserRef, invoiceRef, focusRef });
 
 	return (
 		<div id="smooth-content" className="mt-[80px] pb-[1000px]">
