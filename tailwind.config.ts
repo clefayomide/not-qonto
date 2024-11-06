@@ -15,6 +15,7 @@ const config: Config = {
 				button_primary_color: "#ffffff",
 				button_secondary_background: "#ffffff",
 				button_secondary_color: "#1d1d1b",
+				typography_unfocus: "#636360",
 			},
 		},
 	},

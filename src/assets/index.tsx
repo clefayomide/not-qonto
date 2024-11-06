@@ -66,3 +66,53 @@ export const QontoAssetOne = () => {
 		</svg>
 	);
 };
+
+export const Dot = () => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="5"
+			height="5"
+			viewBox="0 0 4 5"
+			fill="none"
+		>
+			<rect y="0.5" width="4" height="4" fill="black"></rect>
+		</svg>
+	);
+};
+
+export const RatingIcon = () => {
+	return (
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			width="20"
+			height="20"
+			fill="currentColor"
+			className="bi bi-star-fill"
+			viewBox="0 0 16 16"
+		>
+			<path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+		</svg>
+	);
+};
+
+export const Capricorn = () => {
+	return (
+		<svg
+			width="20"
+			height="20"
+			viewBox="0 0 20 20"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<path
+				d="M19 6.35607L12.1232 6.35607L10.0063 -7.79858e-07L7.87684 6.35607L1.00002 6.34389L6.5616 10.2769L4.43217 16.6329L9.99375 12.7L15.5553 16.6329L13.4384 10.2769L19 6.35607Z"
+				fill="#00B67A"
+			/>
+			<path
+				d="M13.916 11.7134L13.44 10.2766L10.0078 12.6997L13.916 11.7134Z"
+				fill="#005128"
+			/>
+		</svg>
+	);
+};

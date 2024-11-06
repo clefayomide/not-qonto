@@ -1,4 +1,4 @@
-"use client"
+"use client";
 // import type { Metadata } from "next";
 import "./globals.css";
 import { AppHeader } from "../components";
@@ -24,7 +24,10 @@ export default function RootLayout({
 		<html className={`${poly.className} antialiased`} lang="en">
 			<body className="scroll-smooth">
 				<AppHeader />
-				<main id="smooth-wrapper" className="mt-[80px] px-5">
+				<main
+					id="smooth-wrapper"
+					className="mt-[80px] overflow-x-hidden px-5 2xl:!w-[1500px] 2xl:m-auto"
+				>
 					{children}
 				</main>
 				<Script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollSmoother.min.js" />
